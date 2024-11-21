@@ -1,3 +1,13 @@
+## @visulima/packem [2.0.0-alpha.1](https://github.com/visulima/packem/compare/@visulima/packem@1.8.0...@visulima/packem@2.0.0-alpha.1) (2024-11-21)
+
+### ⚠ BREAKING CHANGES
+
+* enabled transformMixedEsModules, strictDeprecations and sourcemapDebugIds, enabling minifyInternalExports when minify
+
+### Features
+
+* add new test suite and plugin for Packem, update dependencies ([5345388](https://github.com/visulima/packem/commit/53453887de5fe6d079f25ed69bc75b4041779e7e))
+
 ## @visulima/packem [1.8.0](https://github.com/visulima/packem/compare/@visulima/packem@1.7.3...@visulima/packem@1.8.0) (2024-11-19)
 
 ### Features
