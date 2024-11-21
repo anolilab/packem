@@ -3900,13 +3900,13 @@ exports.injectCss = injectCss;
 `;
 
 exports[`css > css-modules > should work with processed modules 'treeshake-module' css > js 5`] = `
-"export { a } from './packem_shared/a-BGe9EmiK.mjs';
-export { b } from './packem_shared/b-B7r_Qs0P.mjs';
+"export { a } from './packem_shared/a-JbMcxEzv.mjs';
+export { b } from './packem_shared/b-CSawHtz0.mjs';
 "
 `;
 
 exports[`css > css-modules > should work with processed modules 'treeshake-module' css > js 6`] = `
-"import { i as injectCss } from './inject-css-CahStUou.mjs';
+"import { injectCss } from './inject-css-BYoEOdOY.mjs';
 
 var css = ".a_treeshakeModuleA_a9b36f2f {\\n    color: red;\\n}\\n";
 var injected = false;
@@ -3925,7 +3925,7 @@ export { a };
 `;
 
 exports[`css > css-modules > should work with processed modules 'treeshake-module' css > js 7`] = `
-"import { i as injectCss } from './inject-css-CahStUou.mjs';
+"import { injectCss } from './inject-css-BYoEOdOY.mjs';
 
 var css = ".b_treeshakeModuleB_1a2d7396 {\\n    color: red;\\n}\\n";
 var injected = false;
@@ -3993,7 +3993,7 @@ const injectCss = /* @__PURE__ */ __name2((css, options) => {
   }
 }, "default");
 
-export { injectCss as i };
+export { injectCss };
 "
 `;
 
